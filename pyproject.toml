@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mgvr"
+version = "1.0.0"
+description = "Multi-head Gated Value Residuals: reference implementation and synthetic study"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Leon Lehmann", email = "lehmann@empero.org" }]
+classifiers = ["License :: OSI Approved :: Apache Software License", "Programming Language :: Python :: 3"]
+dependencies = ["torch>=2.1"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+
+[project.urls]
+Homepage = "https://github.com/empero-org/mgvr"
+
+[tool.setuptools]
+packages = ["mgvr"]

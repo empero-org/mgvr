@@ -1,0 +1,31 @@
+{
+ "args": {
+  "task": "mqar",
+  "vres": "mgvr",
+  "vres_lambda": 0.5,
+  "seed": 0,
+  "lr": 0.003,
+  "wd": 0.1,
+  "steps": 12000,
+  "warmup": 100,
+  "batch": 64,
+  "eval_batch": 256,
+  "eval_every": 100,
+  "loss": "mask",
+  "vocab": 512,
+  "d_model": 128,
+  "n_layers": 2,
+  "n_heads": 4,
+  "seq_len": 64,
+  "device": "",
+  "out": "runs/mgvr_synth/mqar_n16/mgvr/lr0.003/s0"
+ },
+ "params": 527504,
+ "diverged": false,
+ "final_acc": 0.9667154947916666,
+ "best_acc": 0.968994140625,
+ "auc": 0.5658796326188017,
+ "step_acc50": 6100,
+ "step_acc90": 6600,
+ "seconds": 266.44854402542114
+}

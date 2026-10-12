@@ -1,0 +1,31 @@
+{
+ "args": {
+  "task": "mqar",
+  "vres": "resformer_learn",
+  "vres_lambda": 0.5,
+  "seed": 2,
+  "lr": 0.0005,
+  "wd": 0.1,
+  "steps": 3000,
+  "warmup": 100,
+  "batch": 64,
+  "eval_batch": 256,
+  "eval_every": 50,
+  "loss": "mask",
+  "vocab": 512,
+  "d_model": 128,
+  "n_layers": 2,
+  "n_heads": 4,
+  "seq_len": 256,
+  "device": "",
+  "out": "runs/mgvr_synth/mqar_2L/resformer_learn/lr0.0005/s2"
+ },
+ "params": 524929,
+ "diverged": false,
+ "final_acc": 0.07259114583333333,
+ "best_acc": 0.0748291015625,
+ "auc": 0.05274538133965164,
+ "step_acc50": null,
+ "step_acc90": null,
+ "seconds": 96.06269669532776
+}

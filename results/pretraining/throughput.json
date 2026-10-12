@@ -1,0 +1,7 @@
+{
+ "tokens_per_second": {
+  "baseline": 260200.0,
+  "mgvr": 249500.0
+ },
+ "note": "median training throughput over each run's log, excluding the first 10% of entries; one RTX PRO 6000 per arm"
+}

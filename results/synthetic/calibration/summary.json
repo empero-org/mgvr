@@ -1,0 +1,562 @@
+{
+ "hop_n10": {
+  "none": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.2155959490390325,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.28932292262713116,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  },
+  "mgvr": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.2717200466749174,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.3042968809604645,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  }
+ },
+ "hop_n20": {
+  "none": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.11075026033569343,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.1617838591337204,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  },
+  "mgvr": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.16481792547909374,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.20084635416666666,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  }
+ },
+ "ind_lr1e-3": {
+  "none": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.00022650831535116258,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.00019479986804071814,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    0.005369586404412985,
+    0.0,
+    1
+   ]
+  },
+  "mgvr": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.00020715733575680915,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.00018454724340699613,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    0.0054134889505803585,
+    0.0,
+    1
+   ]
+  }
+ },
+ "ind_lr3e-4": {
+  "none": {
+   "lr": 0.0003,
+   "n": 1,
+   "auc": [
+    0.0002256935371382051,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.00020505249267444015,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    0.00544193759560585,
+    0.0,
+    1
+   ]
+  },
+  "mgvr": {
+   "lr": 0.0003,
+   "n": 1,
+   "auc": [
+    0.0002375078183831647,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.0002460629863586898,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    0.005382498260587454,
+    0.0,
+    1
+   ]
+  }
+ },
+ "mqar_n16": {
+  "none": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.17253766741071427,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.19840494791666666,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  },
+  "mgvr": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.17226926436335405,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.199462890625,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  }
+ },
+ "mqar_n32": {
+  "none": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.08667598748059006,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.107421875,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  },
+  "mgvr": {
+   "lr": 0.001,
+   "n": 1,
+   "auc": [
+    0.08295018924689442,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.13130696614583334,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  }
+ },
+ "mqar_n32_lr3e-3": {
+  "none": {
+   "lr": 0.003,
+   "n": 1,
+   "auc": [
+    0.03877817473796584,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.059855143229166664,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  },
+  "mgvr": {
+   "lr": 0.003,
+   "n": 1,
+   "auc": [
+    0.04535935680318323,
+    0.0,
+    1
+   ],
+   "final_acc": [
+    0.0648193359375,
+    0.0,
+    1
+   ],
+   "step_acc50": [
+    null,
+    null,
+    0
+   ],
+   "step_acc90": [
+    null,
+    null,
+    0
+   ],
+   "step_ind30": [
+    null,
+    null,
+    0
+   ],
+   "step_ind50": [
+    null,
+    null,
+    0
+   ],
+   "final_ind_max": [
+    null,
+    null,
+    0
+   ]
+  }
+ }
+}
